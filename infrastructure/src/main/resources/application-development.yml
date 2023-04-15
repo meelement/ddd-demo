@@ -1,0 +1,13 @@
+mysql:
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  username: root
+  password: rootpwd
+  schema: adm_videos
+  url: localhost:3309
+
+server:
+  port: 8080
+  undertow:
+    threads:
+      worker: 10
+      io: 2
